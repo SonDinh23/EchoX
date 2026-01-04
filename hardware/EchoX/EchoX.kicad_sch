@@ -1,0 +1,197 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "96957c16-d638-43df-9870-caf73854fdd7")
+	(paper "A4")
+	(title_block
+		(title "EchoX ")
+		(rev "0.1")
+		(company "Dinh Quang Son")
+	)
+	(lib_symbols)
+	(sheet
+		(at 193.04 57.15)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 27 255 17 1)
+		)
+		(fill
+			(color 27 255 17 1.0000)
+		)
+		(uuid "414f823e-3593-4905-9fc9-161f67d14a8e")
+		(property "Sheetname" "peripheral"
+			(at 193.04 55.1684 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripheral.kicad_sch"
+			(at 193.04 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EchoX"
+				(path "/96957c16-d638-43df-9870-caf73854fdd7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 57.15)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 71 244 1)
+		)
+		(fill
+			(color 255 71 244 1.0000)
+		)
+		(uuid "439e7048-1cec-405d-acfc-9b704bb69744")
+		(property "Sheetname" "echo"
+			(at 142.24 55.1684 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "echo.kicad_sch"
+			(at 142.24 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EchoX"
+				(path "/96957c16-d638-43df-9870-caf73854fdd7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 57.15)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 118 71 1)
+		)
+		(fill
+			(color 255 118 71 1.0000)
+		)
+		(uuid "85efc3eb-178c-4e69-b35a-4e8cddc4ca51")
+		(property "Sheetname" "power"
+			(at 89.916 49.022 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify top)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 90.17 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EchoX"
+				(path "/96957c16-d638-43df-9870-caf73854fdd7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 57.15)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 56 189 255 1)
+		)
+		(fill
+			(color 56 189 255 1.0000)
+		)
+		(uuid "862661d3-b963-4b05-8db9-3dcdd10f912d")
+		(property "Sheetname" "Main"
+			(at 36.83 54.5334 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 36.83 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EchoX"
+				(path "/96957c16-d638-43df-9870-caf73854fdd7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
